@@ -1,6 +1,6 @@
 <template>
   <div>
-    <i class="iconfont iconanquan">haha</i>
+    Profile
   </div>
 </template>
 
