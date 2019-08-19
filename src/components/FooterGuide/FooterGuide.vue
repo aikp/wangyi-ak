@@ -6,25 +6,25 @@
       </span>
       <span>首页</span>
     </a>
-    <a class="guide_item on" :class="{on: $route.path==='/fenlei'}" @click="goTo('/fenlei')">
+    <a class="guide_item" :class="{on: $route.path==='/fenlei'}" @click="goTo('/fenlei')">
       <span class="item_icon">
         <i class="iconfont icon-waimai"></i>
       </span>
       <span>分类</span>
     </a>
-    <a class="guide_item on" :class="{on: $route.path==='/shiwu'}" @click="goTo('/shiwu')">
+    <a class="guide_item" :class="{on: $route.path==='/shiwu'}" @click="goTo('/shiwu')">
       <span class="item_icon">
         <i class="iconfont icon-waimai"></i>
       </span>
       <span>识物</span>
     </a>
-    <a class="guide_item on" :class="{on: $route.path==='/gouwuche'}" @click="goTo('/gouwuche')">
+    <a class="guide_item" :class="{on: $route.path==='/gouwuche'}" @click="goTo('/gouwuche')">
       <span class="item_icon">
         <i class="iconfont icon-waimai"></i>
       </span>
       <span>购物车</span>
     </a>
-    <a class="guide_item on" :class="{on: $route.path==='/geren'}" @click="goTo('/geren')">
+    <a class="guide_item" :class="{on: $route.path==='/geren'}" @click="goTo('/geren')">
       <span class="item_icon">
         <i class="iconfont icon-waimai"></i>
       </span>
@@ -37,7 +37,6 @@
   export default {
     methods: {
       goTo (path) {
-        console.log('goTo()', this.$router)
         this.$router.replace(path)
       }
     }

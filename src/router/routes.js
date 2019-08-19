@@ -7,6 +7,7 @@ import Fenlei from 'pages/Fenlei/Fenlei.vue'
 import Shiwu from 'pages/Shiwu/Shiwu.vue'
 import Gouwuche from 'pages/Gouwuche/Gouwuche.vue'
 import Geren from 'pages/Geren/Geren.vue'
+import Shopcar from 'pages/Shopcar/Shopcar.vue'
 
 export default [
   {
@@ -28,6 +29,13 @@ export default [
   {
     path:'/geren',
     component:Geren
+  },
+  {
+    path: '/shopcar',
+    component: Shopcar,
+    meta: {
+      showFooter: true
+    }
   },
   {
     path:'/',

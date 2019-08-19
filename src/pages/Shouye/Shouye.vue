@@ -1,7 +1,13 @@
 <template>
-  <div>
-    Shouye
-  </div>
+  <section class="shouye">
+    <!-- 首页头部 -->
+    <span>
+      <i></i>
+    </span>
+    <!-- 首页导航 -->
+
+  </section>
+
 </template>
 
 <script type="text/ecmascript-6">
